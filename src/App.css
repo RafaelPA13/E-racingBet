@@ -1,0 +1,61 @@
+/* Define as variáveis de cores e fonte */
+:root {
+  --font: 'Montserrat', sans-serif;
+  --color-light: #F2F2F2;
+  --color-dark: #00001b;
+  --color-primary: #0500ff;
+  --color-secondary: #00005a;
+  --color-tertiary: #FF000F;
+  --title-color: #00ffff;
+  --gradient: linear-gradient(90deg, #00005a 0%, #0000c0 100%);
+
+  /* Cores de equipes */
+  --cor-porsche: #d5001c;
+  --cor-jaguar: #000;
+  --cor-nissan: #c3002f;
+  --cor-mclaren: #ff8000;
+  --cor-maseratti: #001489;
+  --cor-andretti: #ed3124;
+  --cor-mahindra: #dd052b;
+  --cor-ds-penske: #cba65f;
+  --cor-abt: #194997;
+  --cor-envision: #00be26;
+  --cor-ert: #3c3c3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font);
+}
+
+.button {
+  border-radius: 5rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: var(--color-light);
+}
+
+.button-blue {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.button-red {
+  background-color: var(--color-tertiary);
+  border: none;
+}

@@ -1,0 +1,14 @@
+.section-titulo {
+    width: 100%;
+    height: 10rem;
+    background: var(--gradient);
+    padding: 3.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.section-titulo h1 {
+    color: var(--title-color);
+    font-size: 3.2rem;
+    font-style: italic;
+}
