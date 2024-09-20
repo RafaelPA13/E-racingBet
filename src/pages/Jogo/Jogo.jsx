@@ -18,6 +18,22 @@ function Jogo() {
     { icon: 'fa-solid fa-ranking-star', placeholder: 'Equipe com mais pontos', icone: <i className='fa-solid fa-ranking-star'></i> }
   ];
 
+  const apostas = () => {
+    const inputs = document.querySelectorAll('.input input'); // Seleciona todos os inputs
+    let valid = true;
+
+    inputs.forEach(input => {
+      if (isNaN(input.value) || input.value === '') {
+        valid = false;
+        alert('Preencha os campos corretamente');
+      }
+    });
+
+    if (valid) {
+      alert('Suas apostas foram enviadas, BOA SORTE!');
+    }
+  };
+
   return (
     <main>
       <Titulos titulo="Pontuação: 0 pts" />
@@ -26,7 +42,7 @@ function Jogo() {
         <ApostasForm categoria="Desempenho" pontos="25" inputs={desempenhoInputs} />
         <ApostasForm categoria="Equipes" pontos="25" inputs={equipesInputs} />
       </div>
-      <button type="button" className="enviar">Enviar</button>
+      <button type="button" className="enviar" onClick={apostas}>Enviar</button>
     </main>
   );
 }
