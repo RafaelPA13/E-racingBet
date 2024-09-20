@@ -1,0 +1,46 @@
+.cards-info {
+    padding: 5rem;
+    border-radius: 0 0 50px 0;
+
+    h2 {
+        font-size: 4rem;
+        margin: 2rem auto;
+        color: var(--title-color);
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 2rem;
+        color: var(--color-light);
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
+
+    h2, p {
+        margin-left: 5rem;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 1200px) {
+
+    .cards-info {
+        padding: 2rem;
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+    
+        h2, p {
+            margin-left: 0;
+        }
+    }
+}
+
+/* Mobile */
