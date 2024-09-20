@@ -1,0 +1,25 @@
+/* Seção Nossa História */
+
+.container-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem auto;
+}
+
+#dark-blue {
+    z-index: 2;
+}
+
+#red {
+    z-index: 1;
+}
+
+#light-blue {
+    z-index: 0;
+}
+
+#dark-blue, #red, #light-blue {
+    margin-left: -5rem;
+}
+
+/* Fim Seção Nossa História */

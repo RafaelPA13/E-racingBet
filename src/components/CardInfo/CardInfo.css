@@ -1,0 +1,23 @@
+.cards-info {
+    padding: 5rem;
+    border-radius: 0 0 50px 0;
+
+    h2 {
+        font-size: 4rem;
+        margin: 2rem auto;
+        color: var(--title-color);
+        font-weight: 500;
+    }
+
+    p {
+        text-wrap: wrap;
+        font-size: 2rem;
+        color: var(--color-light);
+        margin-bottom: 2rem;
+        font-weight: 300;
+    }
+
+    h2, p {
+        margin-left: 5rem;
+    }
+}
