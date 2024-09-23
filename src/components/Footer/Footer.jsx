@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       <div className="conteudo">
         <div className="logo-footer">
-          <img src="../../../public/web_images/formula_e_logo.png" alt="logo" />
+          <img src="/web_images/formula_e_logo.png" alt="logo" />
           <p>Faça parte da comunidade da Fórmula E</p>
         </div>
         <ul className="lista-footer">
