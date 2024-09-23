@@ -1,4 +1,4 @@
-/* Seção Nossa História */
+/* Sessão Nossa História */
 
 .container-info {
     display: grid;
@@ -18,29 +18,132 @@
     z-index: 0;
 }
 
-#dark-blue, #red, #light-blue {
+#dark-blue,
+#red,
+#light-blue {
     margin-left: -5rem;
 }
 
-/* Fim Seção Nossa História */
+/* Fim Sessão Nossa História */
 
-/* Mobile */
-@media only screen and (max-width: 1200px) {
+/* Sessão Circuitos */
+.lista-circuitos {
+    width: 90%;
+    margin: 4.8rem auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+    grid-template-areas:
+        'berlim berlim cidade-mexico'
+        'berlim berlim diriyah'
+        'londres londres londres'
+        'misano portland portland'
+        'monaco portland portland'
+        'sao-paulo toquio xangai'
+    ;
+}
+
+.berlim {
+    grid-area: berlim;
+}
+
+.cidade-mexico {
+    grid-area: cidade-mexico;
+}
+
+.diriyah {
+    grid-area: diriyah;
+}
+
+.londres {
+    grid-area: londres;
+}
+
+.misano {
+    grid-area: misano;
+}
+
+.monaco {
+    grid-area: monaco;
+}
+
+.portland {
+    grid-area: portland;
+}
+
+.sao-paulo {
+    grid-area: sao-paulo;
+}
+
+.toquio {
+    grid-area: toquio;
+}
+
+.xangai {
+    grid-area: xangai;
+}
+
+/* Fim sessão Circuitos */
+
+/* Tablet */
+@media (width < 950px) {
 
     /* Seção Nossa História */
     .container-info {
         grid-template-columns: 1fr;
     }
 
-    #dark-blue, #red, #light-blue {
+    #dark-blue,
+    #red,
+    #light-blue {
         margin-left: 0;
     }
 
-    #red, #light-blue {
+    #red,
+    #light-blue {
         margin-top: -5rem;
     }
 
     /* Fim Seção Nossa História */
+
+    /* Sessão Circuitos */
+    .lista-circuitos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'berlim cidade-mexico'
+            'diriyah londres'
+            'misano portland'
+            'monaco sao-paulo'
+            'toquio xangai'
+        ;
+    }
+
+    /* Fim sessão Circuitos */
 }
 
+/* Fim tablet */
+
 /* Mobile */
+@media (width < 650px) {
+
+    /* Sessão Circuitos */
+    .lista-circuitos {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            'berlim'
+            'cidade-mexico'
+            'diriyah'
+            'londres'
+            'misano'
+            'portland'
+            'monaco'
+            'sao-paulo'
+            'toquio'
+            'xangai'
+        ;
+    }
+
+}
+
+/* Fim mobile */
