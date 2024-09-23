@@ -24,6 +24,32 @@ export default function Home() {
         }
         classe={"boas-vindas"}
       />
+
+      <section
+        className="section-a-nova-era-do-automobilismo"
+        id="automobilismo"
+      >
+        <div className="card">
+          <img
+            src="/web_images/imagem-card.jpeg"
+            alt="Carro da equipe da Porshe"
+          />
+          <div className="conteudo">
+            <h1>A Nova Era do Automobilismo</h1>
+            <p>
+              Conheça mais sobre a corrida mais sustentável do mundo e o futuro
+              dos esporte automotivo.
+            </p>
+            <Button
+              tag={
+                <Link to={"/wiki"} className="button button-blue">
+                  Saiba Mais
+                </Link>
+              }
+            />
+          </div>
+        </div>
+      </section>
       <Banner
         conteudo={
           <div>
