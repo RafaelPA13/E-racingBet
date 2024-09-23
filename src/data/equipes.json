@@ -9,7 +9,8 @@
         "carro": "/carros/Carro-ABT.png",
         "colocacao": "10°",
         "vitorias": "0",
-        "podios": "0"
+        "podios": "0",
+        "classe": "abt"
     },
     {
         "equpe": "Andretti Formula E",
@@ -21,7 +22,8 @@
         "carro": "/carros/Carro-Andretti.png",
         "colocacao": "5°",
         "vitorias": "1",
-        "podios": "4"
+        "podios": "4",
+        "classe": "andretti"
     },
     {
         "equpe": "DS Penske",
@@ -33,7 +35,8 @@
         "carro": "/carros/Carro-DS-Penske.png",
         "colocacao": "4°",
         "vitorias": "0",
-        "podios": "3"
+        "podios": "3",
+        "classe": "ds-penske"
     },
     {
         "equpe": "Envision Racing",
@@ -45,7 +48,8 @@
         "carro": "/carros/Carro-Envision.png",
         "colocacao": "8°",
         "vitorias": "0",
-        "podios": "2"
+        "podios": "2",
+        "classe": "envision"
     },
     {
         "equpe": "ERT Formula E Team",
@@ -57,7 +61,8 @@
         "carro": "/carros/Carro-ERT.png",
         "colocacao": "9°",
         "vitorias": "0",
-        "podios": "0"
+        "podios": "0",
+        "classe": "ert"
     },
     {
         "equpe": "Jaguar TCS Racing",
@@ -69,7 +74,8 @@
         "carro": "/carros/Carro-Jaguar.png",
         "colocacao": "1°",
         "vitorias": "3",
-        "podios": "9"
+        "podios": "9",
+        "classe": "jaguar"
     },
     {
         "equpe": "Mahindra Racing",
@@ -81,7 +87,8 @@
         "carro": "/public/carros/Carro-Mahindra.png",
         "colocacao": "11°",
         "vitorias": "0",
-        "podios": "0"
+        "podios": "0",
+        "classe": "mahindra"
     },
     {
         "equpe": "Maserati MSG Racing",
@@ -93,7 +100,8 @@
         "carro": "/carros/Carro-Maserati.png",
         "colocacao": "6°",
         "vitorias": "1",
-        "podios": "2"
+        "podios": "2",
+        "classe": "maseratti"
     },
     {
         "equpe": "Neom Mclaren Formula E Team",
@@ -105,7 +113,8 @@
         "carro": "/carros/Carro-Mclaren.png",
         "colocacao": "7°",
         "vitorias": "1",
-        "podios": "1"
+        "podios": "1",
+        "classe": "mclaren"
     },
     {
         "equpe": "Nissan Formula E Team",
@@ -117,7 +126,8 @@
         "carro": "/carros/Carro-Nissan.png",
         "colocacao": "3°",
         "vitorias": "1",
-        "podios": "6"
+        "podios": "6",
+        "classe": "nissan"
     },
     {
         "equpe": "TAG Heuer Porsche",
@@ -129,6 +139,7 @@
         "carro": "/carros/Carro-Porsche.png",
         "colocacao": "2°",
         "vitorias": "3",
-        "podios": "3"
+        "podios": "3",
+        "classe": "porsche"
     }    
 ]

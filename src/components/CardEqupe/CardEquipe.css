@@ -1,0 +1,367 @@
+ul {
+    list-style: none;
+}
+
+.teams-accordion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.teams-content-box {
+    margin: 1rem 2rem;
+}
+
+.label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2.4rem;
+    background-color: #f2f2f2;
+    color: #00001B;
+    cursor: pointer;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    img {
+        height: 50px;
+    }
+}
+
+
+.title-label {
+    color: #00001B;
+    margin-left: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.label::before {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+    order: 2;
+}
+
+.label.active::before {
+    content: "\f077";
+}
+
+.label-content {
+    display: flex;
+    flex-direction: column;
+    background: var(--gradient);
+    color: var(--title-color);
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    transition: .5s ease-out;
+    height: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.label.active+.label-content {
+    height: auto;
+    padding: 1.5rem;
+}
+
+.grid-label-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "pilot carro"
+        "pilot stats";
+    margin-bottom: 1rem;
+    gap: 5rem;
+
+    h3 {
+        font-style: italic;
+        font-size: 2.5rem;
+        color: var(--font-primary-color);
+    }
+}
+
+.pilots-cards {
+    grid-area: pilot;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar-color {
+    width: 3%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.pilot {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1rem 0;
+
+    img {
+        width: 35%;
+    }
+
+    h1 {
+        font-style: italic;
+        margin-right: 3rem;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: var(--color-dark);
+    }
+}
+
+.car-card {
+    grid-area: carro;
+
+    img {
+        width: 100%;
+    }
+}
+
+.stats-card {
+    grid-area: stats;
+    gap: 1rem;
+
+    h3 {
+        margin-bottom: 1rem;
+    }
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--font-primary-color);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.my-icon {
+    font-size: 2rem;
+}
+
+.position-number,
+.victory-number,
+.podium-number {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.position-number {
+    border-radius: 5px 0 0 5px;
+}
+
+.podium-number {
+    border-radius: 0 5px 5px 0;
+}
+
+.borda {
+    border-left: 10px solid;
+}
+
+.borda-porsche {
+    border-color: var(--cor-porsche);
+}
+
+.borda-jaguar {
+    border-color: var(--cor-jaguar);
+}
+
+.borda-nissan {
+    border-color: var(--cor-nissan);
+}
+
+.borda-mclaren {
+    border-color: var(--cor-mclaren);
+}
+
+.borda-maseratti {
+    border-color: var(--cor-maseratti);
+}
+
+.borda-andretti {
+    border-color: var(--cor-andretti);
+}
+
+.borda-mahindra {
+    border-color: var(--cor-mahindra);
+}
+
+.borda-ds-penske {
+    border-color: var(--cor-ds-penske);
+}
+
+.borda-abt {
+    border-color: var(--cor-abt);
+}
+
+.borda-envision {
+    border-color: var(--cor-envision);
+}
+
+.borda-ert {
+    border-color: var(--cor-ert);
+}
+
+/* Tablet */
+@media (width < 950px) {
+    .teams-accordion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .teams-content-box {
+        margin: 0 0;
+        width: 100%;
+      }
+    
+      .label {
+        width: 100%;
+    
+        img {
+          height: 30px;
+        }
+      }
+    
+      .title-label {
+        font-size: 1.2rem;
+      }
+    
+      .label-content {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+    
+    
+      .label.active+.label-content {
+        height: auto;
+        padding: .5rem;
+      }
+    
+      .grid-label-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "pilot"
+          "carro"
+          "stats";
+        margin-bottom: 1rem;
+        gap: 0;
+    
+        h3 {
+          font-size: 2rem;
+        }
+      }
+    
+      .pilots-cards, .car-card, .stats-card {
+        width: 100%;
+        padding: 1rem;
+      }
+    
+      .bar-color {
+        width: 1rem;
+      }
+    
+      .pilot {
+        gap: 1rem;
+        width: 100%;
+    
+        h1 {
+          font-size: 0;
+          font-size: 2rem;
+        }
+      }
+    
+      .car-card {
+    
+        img {
+          width: 100%;
+        }
+      }
+    
+      .stats-card {
+        grid-area: stats;
+        gap: 0;
+      }
+    
+      .data {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: .5rem;
+        font-size: 1rem;
+      }
+    
+      .my-icon {
+        font-size: 1rem;
+      }
+    
+    
+      .position-number {
+        border-radius: 0 0 0 0;
+      }
+    
+      .podium-number {
+        border-radius: 0 0 0 0;
+      }
+    
+      .position-number, .victory-number, .podium-number {
+        width: 100%;
+        padding: .7rem;
+        font-size: 1.2rem;
+        border-radius: 5px;
+      }
+}
+
+/* Fim tablet */
+
+/* Tablet */
+@media (width < 650px) {
+    /* .info.aberto .conteudo-card-equpes {
+        grid-template-columns: 300px;
+    }
+
+    .pilotos ul{
+        width: 100%;
+    }
+
+    .pilotos li h3 {
+        font-size: 1.6rem;
+    }
+
+    .carro img {
+        width: 100%;
+    }
+
+    .estatisticas ul {
+        gap: 1rem;
+    } */
+
+}
+
+/* Fim tablet */

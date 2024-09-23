@@ -1,8 +1,10 @@
 import Titulo from "../../components/Titulos/Titulos";
 import CardInfo from "../../components/CardInfo/CardInfo";
 import CardCircuito from "../../components/CardCircuito/CardCircuito";
+import CardEquipe from "../../components/CardEqupe/CardEquipe";
 
 import circuitos from "../../data/circuitos.json";
+import equipes from "../../data/equipes.json";
 
 import "./Wiki.css";
 
@@ -34,7 +36,30 @@ export default function Wiki() {
       <Titulo titulo={"Circuitos"} />
       <ul className="lista-circuitos">
         {circuitos.map((circuito) => (
-          <CardCircuito imagem={circuito.foto} nome={circuito.circuito} classe={circuito.classes} />
+          <CardCircuito
+            imagem={circuito.foto}
+            nome={circuito.circuito}
+            classe={circuito.classes}
+          />
+        ))}
+      </ul>
+
+      <Titulo titulo={"Equipes"} />
+      <ul className="lista-equipes">
+        {equipes.map((equipe) => (
+          <CardEquipe
+            logo={equipe.fotoEquipe}
+            nome={equipe.equpe}
+            piloto_1={equipe.piloto1}
+            piloto_2={equipe.piloto2}
+            foto_piloto_1={equipe.fotoPiloto1}
+            foto_piloto_2={equipe.fotoPiloto2}
+            carro={equipe.carro}
+            colocacao={equipe.colocacao}
+            vitorias={equipe.vitorias}
+            podio={equipe.podios}
+            borda={equipe.classe}
+          />
         ))}
       </ul>
     </>

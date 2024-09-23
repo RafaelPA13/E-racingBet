@@ -86,6 +86,17 @@
 
 /* Fim sessão Circuitos */
 
+/* Sessão Equipes */
+.lista-equipes {
+    width: 75%;
+    margin: 4.8rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+/* Fim sessão Equipes */
+
 /* Tablet */
 @media (width < 950px) {
 
@@ -120,12 +131,23 @@
     }
 
     /* Fim sessão Circuitos */
+
+    /* Sessão Equipes */
+    .lista-equipes {
+        width: 80%;
+    }
+
+    /* Fim sessão Equipes */
 }
 
 /* Fim tablet */
 
 /* Mobile */
 @media (width < 650px) {
+
+    .lista-equipes {
+        width: 90%;
+    }
 
     /* Sessão Circuitos */
     .lista-circuitos {
