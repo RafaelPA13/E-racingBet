@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Button from "../Button/Button";
 import "./Header.css";
 
 export default function Header() {
@@ -40,12 +41,20 @@ export default function Header() {
             </Link>
           </li>
           <li className="buttons">
-            <Link to={"/login"} className="button button-red">
-              Entrar
-            </Link>
-            <Link to={"/cadastro"} className="button button-blue">
-              Cadastrar
-            </Link>
+            <Button
+              tag={
+                <Link to={"/login"} className="button button-red">
+                  Entrar
+                </Link>
+              }
+            />
+            <Button
+              tag={
+                <Link to={"/cadastro"} className="button button-blue">
+                  Cadastrar
+                </Link>
+              }
+            />
           </li>
         </ul>
       </nav>

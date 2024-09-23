@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner/Banner";
 import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button";
 import "./Home.css";
 
 export default function Home() {
@@ -9,9 +10,13 @@ export default function Home() {
         conteudo={
           <div>
             <h1>Bem vindo a Fórmula E</h1>
-            <Link to={"/login"} className="button button-blue">
-              Entrar
-            </Link>
+            <Button
+              tag={
+                <Link to={"/login"} className="button button-blue">
+                  Entrar
+                </Link>
+              }
+            />
             <Link to={"#automobilismo"} className="icone">
               <i class="fa-solid fa-angles-down"></i>
             </Link>
@@ -27,9 +32,13 @@ export default function Home() {
               Teste seus conheicmentos sobre as corridas e adivinhe certos
               detalhes das corridas e ganhe pontos, que vença o melhor!
             </p>
-            <Link to={"/jogo"} className="button button-blue">
-              Jogar
-            </Link>
+            <Button
+              tag={
+                <Link to={"/jogo"} className="button button-blue">
+                  Jogar
+                </Link>
+              }
+            />
           </div>
         }
         classe={"jogo"}
