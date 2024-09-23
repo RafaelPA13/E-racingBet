@@ -1,6 +1,10 @@
 import Banner from "../../components/Banner/Banner";
-import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
+import Titulo from "../../components/Titulos/Titulos";
+import { Link } from "react-router-dom";
+
+import pilotos from "../../data/pilotos.json";
+
 import "./Home.css";
 
 export default function Home() {
@@ -17,9 +21,9 @@ export default function Home() {
                 </Link>
               }
             />
-            <Link to={"#automobilismo"} className="icone">
+            <a href="#automobilismo" className="icone">
               <i class="fa-solid fa-angles-down"></i>
-            </Link>
+            </a>
           </div>
         }
         classe={"boas-vindas"}
@@ -50,6 +54,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="section-classificacao">
+        <Titulo titulo={"Circuito de Berlim"} />
+        <ul className="lista-pilotos">
+          {/* Aqui vira os cards dos 3 primeiros pilotos */}
+          {/* {pilotos
+            .filter((piloto) => piloto.posicao <= 3)
+            .map((piloto) => ())} */}
+        </ul>
+        <Button
+          tag={
+            <Link to={"/classificacao"} className="button button-red">
+              Veja Mais
+            </Link>
+          }
+        />
+      </section>
+
       <Banner
         conteudo={
           <div>
