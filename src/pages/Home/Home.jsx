@@ -1,6 +1,10 @@
 import Banner from "../../components/Banner/Banner";
-import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
+import Titulo from "../../components/Titulos/Titulos";
+import { Link } from "react-router-dom";
+
+import pilotos from "../../data/pilotos.json";
+
 import "./Home.css";
 
 export default function Home() {
@@ -17,13 +21,57 @@ export default function Home() {
                 </Link>
               }
             />
-            <Link to={"#automobilismo"} className="icone">
+            <a href="#automobilismo" className="icone">
               <i class="fa-solid fa-angles-down"></i>
-            </Link>
+            </a>
           </div>
         }
         classe={"boas-vindas"}
       />
+
+      <section
+        className="section-a-nova-era-do-automobilismo"
+        id="automobilismo"
+      >
+        <div className="card">
+          <img
+            src="/web_images/imagem-card.jpeg"
+            alt="Carro da equipe da Porshe"
+          />
+          <div className="conteudo">
+            <h1>A Nova Era do Automobilismo</h1>
+            <p>
+              Conheça mais sobre a corrida mais sustentável do mundo e o futuro
+              dos esporte automotivo.
+            </p>
+            <Button
+              tag={
+                <Link to={"/wiki"} className="button button-blue">
+                  Saiba Mais
+                </Link>
+              }
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="section-classificacao">
+        <Titulo titulo={"Circuito de Berlim"} />
+        <ul className="lista-pilotos">
+          {/* Aqui vira os cards dos 3 primeiros pilotos */}
+          {/* {pilotos
+            .filter((piloto) => piloto.posicao <= 3)
+            .map((piloto) => ())} */}
+        </ul>
+        <Button
+          tag={
+            <Link to={"/classificacao"} className="button button-red">
+              Veja Mais
+            </Link>
+          }
+        />
+      </section>
+
       <Banner
         conteudo={
           <div>
