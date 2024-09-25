@@ -5,14 +5,9 @@ import "./CardEquipe.css";
 export default function CardEquipe({
   logo,
   nome,
-  piloto_1,
-  piloto_2,
-  foto_piloto_1,
-  foto_piloto_2,
+  pilotos,
   carro,
-  colocacao,
-  vitorias,
-  podio,
+  estatisticas,
   borda,
 }) {
   const [abrir, setAbrir] = useState(false);
@@ -20,7 +15,7 @@ export default function CardEquipe({
   return (
     <li>
       <div
-        className={abrir ? "label active" : "label"}
+        className={`label ${abrir ? "active" : ""}`}
         onClick={() => {
           setAbrir(!abrir);
         }}
@@ -32,14 +27,12 @@ export default function CardEquipe({
         <div className="grid-label-content">
           <div className="pilots-cards">
             <h3>Pilotos</h3>
-            <div className={`pilot borda borda-${borda}`}>
-              <img src={foto_piloto_1} alt={piloto_1} />
-              <h1>{piloto_1}</h1>
-            </div>
-            <div className={`pilot borda borda-${borda}`}>
-              <img src={foto_piloto_2} alt={piloto_2} />
-              <h1>{piloto_2}</h1>
-            </div>
+            {pilotos.map((piloto) => (
+              <div key={piloto.nome} className={`pilot borda borda-${borda}`}>
+                <img src={piloto.foto} alt={piloto.nome} />
+                <h1>{piloto.nome}</h1>
+              </div>
+            ))}
           </div>
 
           <div className="car-card">
@@ -49,29 +42,31 @@ export default function CardEquipe({
 
           <div className="stats-card">
             <h3>Estatísticas</h3>
-            <div className="data">
-              <div className="position-number">
-                <div className="info">
-                  <i className="fa-solid fa-table my-icon"></i>
-                  <span>Colocação</span>
+            {estatisticas.map((estatistica) => (
+              <div className="data">
+                <div className="stats-number">
+                  <div className="info">
+                    <i className="fa-solid fa-table my-icon"></i>
+                    <span>Colocação</span>
+                  </div>
+                  <h4>{estatistica.colocacao}</h4>
                 </div>
-                <h4>{colocacao}</h4>
-              </div>
-              <div className="victory-number">
-                <div className="info">
-                  <i className="fa-solid fa-trophy my-icon"></i>
-                  <span>Vitórias</span>
+                <div className="stats-number">
+                  <div className="info">
+                    <i className="fa-solid fa-trophy my-icon"></i>
+                    <span>Vitórias</span>
+                  </div>
+                  <h4>{estatistica.vitorias}</h4>
                 </div>
-                <h4>{vitorias}</h4>
-              </div>
-              <div className="podium-number">
-                <div className="info">
-                  <i className="fa-solid fa-ranking-star my-icon"></i>
-                  <span>Pódios</span>
+                <div className="stats-number">
+                  <div className="info">
+                    <i className="fa-solid fa-ranking-star my-icon"></i>
+                    <span>Pódios</span>
+                  </div>
+                  <h4>{estatistica.podios}</h4>
                 </div>
-                <h4>{podio}</h4>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

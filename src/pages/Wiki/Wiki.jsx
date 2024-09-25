@@ -37,6 +37,7 @@ export default function Wiki() {
       <ul className="lista-circuitos">
         {circuitos.map((circuito) => (
           <CardCircuito
+            key={circuito.circuito}
             imagem={circuito.foto}
             nome={circuito.circuito}
             classe={circuito.classes}
@@ -48,16 +49,12 @@ export default function Wiki() {
       <ul className="lista-equipes">
         {equipes.map((equipe) => (
           <CardEquipe
+            key={equipe.nome}
             logo={equipe.fotoEquipe}
             nome={equipe.equpe}
-            piloto_1={equipe.piloto1}
-            piloto_2={equipe.piloto2}
-            foto_piloto_1={equipe.fotoPiloto1}
-            foto_piloto_2={equipe.fotoPiloto2}
+            pilotos={equipe.pilotos}
             carro={equipe.carro}
-            colocacao={equipe.colocacao}
-            vitorias={equipe.vitorias}
-            podio={equipe.podios}
+            estatisticas={equipe.estatisticas}
             borda={equipe.classe}
           />
         ))}

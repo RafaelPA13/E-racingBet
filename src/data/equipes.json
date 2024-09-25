@@ -1,145 +1,135 @@
 [
-    {
-        "equpe": "ABT Cupra Formula E Team",
-        "fotoEquipe": "/equipes/Logotipo_da_ABT_CUPRA_Formula_E_Team.png",
-        "fotoPiloto1": "/public/pilotos/Lucas-Di-Grassi.png",
-        "piloto1": "Lucas Di Grassi",
-        "fotoPiloto2": "/pilotos/Nico-Muller.png",
-        "piloto2": "Nico Müller",
-        "carro": "/carros/Carro-ABT.png",
-        "colocacao": "10°",
-        "vitorias": "0",
-        "podios": "0",
-        "classe": "abt"
-    },
-    {
-        "equpe": "Andretti Formula E",
-        "fotoEquipe": "/equipes/Logo-Andretti-Global.webp",
-        "fotoPiloto1": "/pilotos/Jake-Dennis.png",
-        "piloto1": "Jake Dennis",
-        "fotoPiloto2": "/pilotos/Norman-Nato.png",
-        "piloto2": "Norman Nato",
-        "carro": "/carros/Carro-Andretti.png",
-        "colocacao": "5°",
-        "vitorias": "1",
-        "podios": "4",
-        "classe": "andretti"
-    },
-    {
-        "equpe": "DS Penske",
-        "fotoEquipe": "/equipes/LogoDS_PENSKE.webp.png",
-        "fotoPiloto1": "/pilotos/Jean-Eric-Vergne.png",
-        "piloto1": "Jean Éric Vergne",
-        "fotoPiloto2": "/pilotos/Stoffel-Vandoorne.png",
-        "piloto2": "Stoffel Vandoorne",
-        "carro": "/carros/Carro-DS-Penske.png",
-        "colocacao": "4°",
-        "vitorias": "0",
-        "podios": "3",
-        "classe": "ds-penske"
-    },
-    {
-        "equpe": "Envision Racing",
-        "fotoEquipe": "/equipes/Envision_Racing_logo.png",
-        "fotoPiloto1": "/pilotos/Robin-Frijns.png",
-        "piloto1": "Robin Frijns",
-        "fotoPiloto2": "/pilotos/Sebastien-Buemi.png",
-        "piloto2": "Sébastien Buemi",
-        "carro": "/carros/Carro-Envision.png",
-        "colocacao": "8°",
-        "vitorias": "0",
-        "podios": "2",
-        "classe": "envision"
-    },
-    {
-        "equpe": "ERT Formula E Team",
-        "fotoEquipe": "/equipes/ERT_Formula_E_logo.png",
-        "fotoPiloto1": "/pilotos/Dan-Ticktum.png",
-        "piloto1": "Dan Ticktum",
-        "fotoPiloto2": "/pilotos/Sergio-Sette-Camara.png",
-        "piloto2": "Sérgio Sette Câmara",
-        "carro": "/carros/Carro-ERT.png",
-        "colocacao": "9°",
-        "vitorias": "0",
-        "podios": "0",
-        "classe": "ert"
-    },
-    {
-        "equpe": "Jaguar TCS Racing",
-        "fotoEquipe": "/equipes/Logo_da_Jaguar_Racing.png",
-        "fotoPiloto1": "/pilotos/Mitch-Evans.png",
-        "piloto1": "Mitch Evans",
-        "fotoPiloto2": "/pilotos/Nick-Cassidy.png",
-        "piloto2": "Nick Cassidy",
-        "carro": "/carros/Carro-Jaguar.png",
-        "colocacao": "1°",
-        "vitorias": "3",
-        "podios": "9",
-        "classe": "jaguar"
-    },
-    {
-        "equpe": "Mahindra Racing",
-        "fotoEquipe": "/public/equipes/LogoMahindra.png",
-        "fotoPiloto1": "/pilotos/Edoardo-Motara.png",
-        "piloto1": "Edoardo Motara",
-        "fotoPiloto2": "/pilotos/Nyck-De-Vries.png",
-        "piloto2": "Nyck De Vries",
-        "carro": "/public/carros/Carro-Mahindra.png",
-        "colocacao": "11°",
-        "vitorias": "0",
-        "podios": "0",
-        "classe": "mahindra"
-    },
-    {
-        "equpe": "Maserati MSG Racing",
-        "fotoEquipe": "/equipes/LogoMaserati.png",
-        "fotoPiloto1": "/pilotos/Jehan-Daruvala.png",
-        "piloto1": "Jehan Daruvala",
-        "fotoPiloto2": "/pilotos/Maximilian-Gunther.png",
-        "piloto2": "Maximilian Günther",
-        "carro": "/carros/Carro-Maserati.png",
-        "colocacao": "6°",
-        "vitorias": "1",
-        "podios": "2",
-        "classe": "maseratti"
-    },
-    {
-        "equpe": "Neom Mclaren Formula E Team",
-        "fotoEquipe": "/equipes/NEOMMclarenLogo.png",
-        "fotoPiloto1": "/pilotos/Jake-Hughes.png",
-        "piloto1": "Jake Hughes",
-        "fotoPiloto2": "/pilotos/Sam-Bird.png",
-        "piloto2": "Sam Bird",
-        "carro": "/carros/Carro-Mclaren.png",
-        "colocacao": "7°",
-        "vitorias": "1",
-        "podios": "1",
-        "classe": "mclaren"
-    },
-    {
-        "equpe": "Nissan Formula E Team",
-        "fotoEquipe": "/equipes/NissanLogo.png",
-        "fotoPiloto1": "/pilotos/Oliver-Rowland.png",
-        "piloto1": "Oliver Rowland",
-        "fotoPiloto2": "/pilotos/Sacha-Fenestraz.png",
-        "piloto2": "Sacha Fenestraz",
-        "carro": "/carros/Carro-Nissan.png",
-        "colocacao": "3°",
-        "vitorias": "1",
-        "podios": "6",
-        "classe": "nissan"
-    },
-    {
-        "equpe": "TAG Heuer Porsche",
-        "fotoEquipe": "/equipes/Porsche_Formula_E.png",
-        "fotoPiloto1": "/pilotos/Pascal-Wehrlein.png",
-        "piloto1": "Pascal Wehrlein",
-        "fotoPiloto2": "/pilotos/Antonio-Felix-Da-Costa.png",
-        "piloto2": "António Félix Da Costa",
-        "carro": "/carros/Carro-Porsche.png",
-        "colocacao": "2°",
-        "vitorias": "3",
-        "podios": "3",
-        "classe": "porsche"
-    }    
+  {
+    "equpe": "ABT Cupra Formula E Team",
+    "fotoEquipe": "/equipes/Logotipo_da_ABT_CUPRA_Formula_E_Team.png",
+    "pilotos": [
+      {
+        "nome": "Lucas Di Grassi",
+        "foto": "/public/pilotos/Lucas-Di-Grassi.png"
+      },
+      { "nome": "Nico Müller", "foto": "/pilotos/Nico-Muller.png" }
+    ],
+    "carro": "/carros/Carro-ABT.png",
+    "estatisticas": [{ "colocacao": "10°", "vitorias": "0", "podios": "0" }],
+    "classe": "abt"
+  },
+  {
+    "equpe": "Andretti Formula E",
+    "fotoEquipe": "/equipes/Logo-Andretti-Global.webp",
+    "pilotos": [
+      { "nome": "Jake Dennis", "foto": "/pilotos/Jake-Dennis.png" },
+      { "nome": "Norman Nato", "foto": "/pilotos/Norman-Nato.png" }
+    ],
+    "carro": "/carros/Carro-Andretti.png",
+    "estatisticas": [{ "colocacao": "5°", "vitorias": "1", "podios": "4" }],
+    "classe": "andretti"
+  },
+  {
+    "equpe": "DS Penske",
+    "fotoEquipe": "/equipes/LogoDS_PENSKE.webp.png",
+    "pilotos": [
+      { "nome": "Jean Éric Vergne", "foto": "/pilotos/Jean-Eric-Vergne.png" },
+      { "nome": "Stoffel Vandoorne", "foto": "/pilotos/Stoffel-Vandoorne.png" }
+    ],
+    "carro": "/carros/Carro-DS-Penske.png",
+    "estatisticas": [{ "colocacao": "4°", "vitorias": "0", "podios": "3" }],
+    "classe": "ds-penske"
+  },
+  {
+    "equpe": "Envision Racing",
+    "fotoEquipe": "/equipes/Envision_Racing_logo.png",
+    "pilotos": [
+      { "nome": "Robin Frijns", "foto": "/pilotos/Robin-Frijns.png" },
+      { "nome": "Sébastien Buemi", "foto": "/pilotos/Sebastien-Buemi.png" }
+    ],
+    "carro": "/carros/Carro-Envision.png",
+    "estatisticas": [{ "colocacao": "8°", "vitorias": "0", "podios": "2" }],
+    "classe": "envision"
+  },
+  {
+    "equpe": "ERT Formula E Team",
+    "fotoEquipe": "/equipes/ERT_Formula_E_logo.png",
+    "pilotos": [
+      { "nome": "Dan Ticktum", "foto": "/pilotos/Dan-Ticktum.png" },
+      {
+        "nome": "Sérgio Sette Câmara",
+        "foto": "/pilotos/Sergio-Sette-Camara.png"
+      }
+    ],
+    "carro": "/carros/Carro-ERT.png",
+    "estatisticas": [{ "colocacao": "9°", "vitorias": "0", "podios": "0" }],
+    "classe": "ert"
+  },
+  {
+    "equpe": "Jaguar TCS Racing",
+    "fotoEquipe": "/equipes/Logo_da_Jaguar_Racing.png",
+    "pilotos": [
+      { "nome": "Mitch Evans", "foto": "/pilotos/Mitch-Evans.png" },
+      { "nome": "Nick Cassidy", "foto": "/pilotos/Nick-Cassidy.png" }
+    ],
+    "carro": "/carros/Carro-Jaguar.png",
+    "estatisticas": [{ "colocacao": "1°", "vitorias": "3", "podios": "9" }],
+    "classe": "jaguar"
+  },
+  {
+    "equpe": "Mahindra Racing",
+    "fotoEquipe": "/public/equipes/LogoMahindra.png",
+    "pilotos": [
+      { "nome": "Edoardo Motara", "foto": "/pilotos/Edoardo-Motara.png" },
+      { "nome": "Nyck De Vries", "foto": "/pilotos/Nyck-De-Vries.png" }
+    ],
+    "carro": "/public/carros/Carro-Mahindra.png",
+    "estatisticas": [{ "colocacao": "11°", "vitorias": "0", "podios": "0" }],
+    "classe": "mahindra"
+  },
+  {
+    "equpe": "Maserati MSG Racing",
+    "fotoEquipe": "/equipes/LogoMaserati.png",
+    "pilotos": [
+      { "nome": "Jehan Daruvala", "foto": "/pilotos/Jehan-Daruvala.png" },
+      {
+        "nome": "Maximilian Günther",
+        "foto": "/pilotos/Maximilian-Gunther.png"
+      }
+    ],
+    "carro": "/carros/Carro-Maserati.png",
+    "estatisticas": [{ "colocacao": "6°", "vitorias": "1", "podios": "2" }],
+    "classe": "maseratti"
+  },
+  {
+    "equpe": "Neom Mclaren Formula E Team",
+    "fotoEquipe": "/equipes/NEOMMclarenLogo.png",
+    "pilotos": [
+      { "nome": "Jake Hughes", "foto": "/pilotos/Jake-Hughes.png" },
+      { "nome": "Sam Bird", "foto": "/pilotos/Sam-Bird.png" }
+    ],
+    "carro": "/carros/Carro-Mclaren.png",
+    "estatisticas": [{ "colocacao": "7°", "vitorias": "1", "podios": "1" }],
+    "classe": "mclaren"
+  },
+  {
+    "equpe": "Nissan Formula E Team",
+    "fotoEquipe": "/equipes/NissanLogo.png",
+    "pilotos": [
+      { "nome": "Oliver Rowland", "foto": "/pilotos/Oliver-Rowland.png" },
+      { "nome": "Sacha Fenestraz", "foto": "/pilotos/Sacha-Fenestraz.png" }
+    ],
+    "carro": "/carros/Carro-Nissan.png",
+    "estatisticas": [{ "colocacao": "3°", "vitorias": "1", "podios": "6" }],
+    "classe": "nissan"
+  },
+  {
+    "equpe": "TAG Heuer Porsche",
+    "fotoEquipe": "/equipes/Porsche_Formula_E.png",
+    "pilotos": [
+      { "nome": "Pascal Wehrlein", "foto": "/pilotos/Pascal-Wehrlein.png" },
+      {
+        "nome": "António Félix Da Costa",
+        "foto": "/pilotos/Antonio-Felix-Da-Costa.png"
+      }
+    ],
+    "carro": "/carros/Carro-Porsche.png",
+    "estatisticas": [{ "colocacao": "2°", "vitorias": "3", "podios": "3" }],
+    "classe": "porsche"
+  }
 ]

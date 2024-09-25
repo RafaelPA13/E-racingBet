@@ -2,18 +2,6 @@ ul {
     list-style: none;
 }
 
-.teams-accordion {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.teams-content-box {
-    margin: 1rem 2rem;
-}
-
 .label {
     width: 100%;
     display: flex;
@@ -159,22 +147,13 @@ ul {
     font-size: 2rem;
 }
 
-.position-number,
-.victory-number,
-.podium-number {
+.stats-number {
     background-color: #f2f2f2;
+    border-radius: 5px;
     padding: 1rem;
     font-size: 2.5rem;
     font-weight: 400;
     color: var(--color-primary);
-}
-
-.position-number {
-    border-radius: 5px 0 0 5px;
-}
-
-.podium-number {
-    border-radius: 0 5px 5px 0;
 }
 
 .borda {
@@ -226,20 +205,7 @@ ul {
 }
 
 /* Tablet */
-@media (width < 950px) {
-    .teams-accordion {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-    
-      .teams-content-box {
-        margin: 0 0;
-        width: 100%;
-      }
-    
+@media (width < 950px) {   
       .label {
         width: 100%;
     
@@ -336,32 +302,6 @@ ul {
         font-size: 1.2rem;
         border-radius: 5px;
       }
-}
-
-/* Fim tablet */
-
-/* Tablet */
-@media (width < 650px) {
-    /* .info.aberto .conteudo-card-equpes {
-        grid-template-columns: 300px;
-    }
-
-    .pilotos ul{
-        width: 100%;
-    }
-
-    .pilotos li h3 {
-        font-size: 1.6rem;
-    }
-
-    .carro img {
-        width: 100%;
-    }
-
-    .estatisticas ul {
-        gap: 1rem;
-    } */
-
 }
 
 /* Fim tablet */
