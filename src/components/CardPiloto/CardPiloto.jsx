@@ -1,14 +1,14 @@
 import "./CardPiloto.css";
 
-export default function CardPiloto({ posicao, nome, foto, equipe, pontos, melhorTempo, largada }){
+export default function CardPiloto({ posicao, nome, foto, equipe, cor, pontos, melhorTempo, largada }){
     return (
         <>
             <div className="piloto-container">
                 <img src={ foto } alt={ nome } />
-                <div className="equipe-container">
+                <div className="equipe-container" style={{ backgroundColor: cor }}>
                     <p>{ equipe }</p>
                 </div>
-                
+
                 <div className="id-container">
                     <h1> { posicao } </h1>
                     <h2> { nome } </h2>

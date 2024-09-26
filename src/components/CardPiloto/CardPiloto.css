@@ -1,0 +1,23 @@
+/* Card Pilotos */
+
+.piloto-container {
+    background-color: var(--color-light);
+    margin: 1rem;
+    text-align: center;
+
+    img {
+        width: 200px;
+    }
+}
+
+.equipe-container {
+    background-color: var(--color-tertiary);
+
+    p {
+        color: var(--color-light);
+        font-size: 3rem;
+        padding: 1rem;
+    }
+}
+
+/*Fim Card Pilotos */

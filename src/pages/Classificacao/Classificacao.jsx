@@ -13,6 +13,7 @@ export default function Classificacao() {
             nome={piloto.nome}
             foto={piloto.foto}
             equipe={piloto.equipe}
+            cor={piloto.cor}
             pontos={piloto.pontos}
             melhorTempo={piloto.melhorTempo}
             largada={piloto.largada}
