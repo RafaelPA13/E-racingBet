@@ -8,7 +8,7 @@ export default function ApostasForm({ categoria, pontos, icone, inputs }) {
       <h1>{categoria}  {pontos} pts</h1>
       {inputs.map((input, index) => (
         <div className="input-container" key={index}>
-          <i className={icone}></i> { }
+          <i className={icone}></i> 
           <Input 
             tipo="text" 
             value={input.value}
