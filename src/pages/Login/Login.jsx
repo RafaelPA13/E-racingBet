@@ -8,7 +8,6 @@ const Login = () => {
   const logar = (e) => {
     e.preventDefault();
 
-    // Exemplo de lógica de login (simulada, será substituida por JSON)
     if (email === 'usuario@example.com' && senha === 'senha123') {
       alert('Login efetuado com sucesso');
       window.location.href = '/Home'; 
