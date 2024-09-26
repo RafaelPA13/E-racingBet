@@ -11,7 +11,7 @@ export default function CardPiloto({ posicao, nome, foto, equipe, cor, pontos, m
 
                 <div className="id-container">
                     <h1> { posicao } </h1>
-                    <h2> { nome } </h2>
+                    <h1> { nome } </h1>
                 </div>
 
                 <div className="info-container">
