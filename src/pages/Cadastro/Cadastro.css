@@ -44,29 +44,6 @@
     background-color: var(--primary-color);
 }
 
-.input-group {
-    margin-bottom: 20px;
-    display: flex;
-    background-color: var(--primary-color);
-    padding: .05rem;
-    gap: .5rem;
-}
-
-.icon {
-    width: 4rem;
-    padding: .5rem;
-}
-
-input {
-    width: 100%;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    padding-left: 1rem;
-    border: 2px solid var(--primary-color);
-    outline: none;
-    transition: border-color 0.3s;
-}
-
 .cadastro-btn {
     width: 100%;
     padding: 10px;
@@ -75,6 +52,7 @@ input {
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    margin-top: 1.5rem;
     font-size: 16px;
     transition: background-color 0.3s;
 }
