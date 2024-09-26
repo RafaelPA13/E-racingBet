@@ -1,42 +1,52 @@
 [
     {
         "circuito": "Berlim",
-        "foto": "/circuitos/Circuito-Berlim.webp"
+        "foto": "/circuitos/Circuito-Berlim.webp",
+        "classes": "berlim"
     },
     {
         "circuito": "Cidade do México",
-        "foto": "/circuitos/Circuito-Cidade-do-Mexico.jpg"
+        "foto": "/circuitos/Circuito-Cidade-do-Mexico.jpg",
+        "classes": "cidade-mexico"
     },
     {
         "circuito": "Diriyah",
-        "foto": "/circuitos/Circuito-Diriyah.png"
+        "foto": "/circuitos/Circuito-Diriyah.png",
+        "classes": "diriyah"
     },
     {
         "circuito": "Londres",
-        "foto": "/circuitos/Circuito-Londres.png"
+        "foto": "/circuitos/Circuito-Londres.png",
+        "classes": "londres"
     },
     {
         "circuito": "Misano",
-        "foto": "/circuitos/Circuito-Misano.webp"
+        "foto": "/circuitos/Circuito-Misano.webp",
+        "classes": "misano"
     },
     {
         "circuito": "Mônaco",
-        "foto": "/circuitos/Circuito-Monaco.webp"
+        "foto": "/circuitos/Circuito-Monaco.webp",
+        "classes": "monaco"
     },
     {
         "circuito": "Portland",
-        "foto": "/circuitos/Circuito-Portland.webp"
+        "foto": "/circuitos/Circuito-Portland.webp",
+        "classes": "portland"
     },
     {
         "circuito": "São Paulo",
-        "foto": "/circuitos/Circuito-Sao-Paulo.jpg"
+        "foto": "/circuitos/Circuito-Sao-Paulo.jpg",
+        "classes": "sao-paulo"
     },
     {
-        "circuito": "Tóquio",
-        "foto": "/public/circuitos/Circuito-Toquio.jpg"
+        "circuito": "Toquio",
+        "foto": "/public/circuitos/Circuito-Toquio.jpg",
+        "classes": "toquio"
     },
     {
         "circuito": "Xangai",
-        "foto": "/circuitos/Circuito-Xangai.webp"
+        "foto": "/circuitos/Circuito-Xangai.webp",
+        "classes": "xangai"
     }
 ]
