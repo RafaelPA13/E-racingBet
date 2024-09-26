@@ -286,21 +286,9 @@ ul {
       .my-icon {
         font-size: 1rem;
       }
-    
-    
-      .position-number {
-        border-radius: 0 0 0 0;
-      }
-    
-      .podium-number {
-        border-radius: 0 0 0 0;
-      }
-    
-      .position-number, .victory-number, .podium-number {
+      
+      .stats-number {
         width: 100%;
-        padding: .7rem;
-        font-size: 1.2rem;
-        border-radius: 5px;
       }
 }
 

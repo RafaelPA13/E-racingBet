@@ -43,7 +43,7 @@ export default function CardEquipe({
           <div className="stats-card">
             <h3>Estatísticas</h3>
             {estatisticas.map((estatistica) => (
-              <div className="data">
+              <div className="data" key={estatistica.colocacao}>
                 <div className="stats-number">
                   <div className="info">
                     <i className="fa-solid fa-table my-icon"></i>
