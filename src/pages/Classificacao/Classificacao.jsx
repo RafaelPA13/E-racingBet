@@ -1,10 +1,12 @@
+import Titulos from "../../components/Titulos/Titulos";
 import CardPiloto from "../../components/CardPiloto/CardPiloto";
 import pilotos from '../../data/pilotos.json'; 
 
 export default function Classificacao() {
   return (
     <>
-      <h1>Classificação</h1>
+      <Titulos titulo="Circuito" />
+      
       <div className="classificacao-container">
         {pilotos.map((piloto) => (
           <CardPiloto
