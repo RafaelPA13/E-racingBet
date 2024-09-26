@@ -1,0 +1,54 @@
+/* Card Pilotos */
+
+.piloto-container {
+    border-radius: 5px;
+    background-color: var(--color-light);
+    margin: 2rem;
+    text-align: center;
+
+    img {
+        width: 200px;
+        margin-bottom: -3px;
+    }
+}
+
+.equipe-container {
+    background-color: var(--color-tertiary);
+
+    p {
+        color: var(--color-light);
+        font-size: 3rem;
+        padding: 1rem;
+    }
+}
+
+.id-container, .info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.id-container {
+    gap: 1rem;
+    color: var(--color-secondary);
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.info-container {
+    gap: 3rem;
+    padding: 1rem;
+    color: var(--color-dark);
+}
+
+.info-conteudo {
+    background: var(--gradient);
+    color: var(--color-light);
+    padding: 2rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+}
+
+/*Fim Card Pilotos */
