@@ -1,8 +1,8 @@
 .input {
-    border: 3px solid var(--color-primary);
+    border: solid var(--color-primary);
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .icone {
@@ -14,7 +14,7 @@
 
 input {
     width: 100%;
-    padding-left: 1.6rem;
+    padding-left: 1rem;
     border: none;
     outline: none;
 }
