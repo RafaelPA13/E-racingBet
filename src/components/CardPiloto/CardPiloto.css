@@ -43,7 +43,7 @@
     color: var(--color-dark);
 }
 
-.pontos-container, .tempo-container, .largada-container {
+.info-conteudo {
     background: var(--gradient);
     color: var(--color-light);
     padding: 2rem;

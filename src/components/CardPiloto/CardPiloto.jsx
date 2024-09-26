@@ -2,7 +2,6 @@ import "./CardPiloto.css";
 
 export default function CardPiloto({ posicao, nome, foto, equipe, cor, pontos, melhorTempo, largada }){
     return (
-        <>
             <div className="piloto-container">
                 <img src={ foto } alt={ nome } />
                 <div className="equipe-container" style={{ backgroundColor: cor }}>
@@ -15,20 +14,19 @@ export default function CardPiloto({ posicao, nome, foto, equipe, cor, pontos, m
                 </div>
 
                 <div className="info-container">
-                    <div className="pontos-container">
+                    <div className="info-conteudo">
                         <p> { pontos } </p>
                         <p>Pontos</p>
                     </div>
-                    <div className="tempo-container">
+                    <div className="info-conteudo">
                         <p> { melhorTempo } </p>
                         <p>Melhor Tempo</p>
                     </div>
-                    <div className="largada-container">
+                    <div className="info-conteudo">
                         <p> { largada } </p>
                         <p>Largada</p>
                     </div>
                 </div>
-            </div>
-        </>
+        </div>
     );
 }

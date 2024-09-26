@@ -6,10 +6,10 @@ export default function Classificacao() {
     <>
       <h1>Classificação</h1>
       <div className="classificacao-container">
-        {pilotos.map((piloto, index) => (
+        {pilotos.map((piloto) => (
           <CardPiloto
-            key={index}
-            posicao={index + 1}
+            key={piloto.id}
+            posicao={piloto.posicao}
             nome={piloto.nome}
             foto={piloto.foto}
             equipe={piloto.equipe}
