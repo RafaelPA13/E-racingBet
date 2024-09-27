@@ -12,13 +12,20 @@ const Login = () => {
 
   const logar = (e) => {
     e.preventDefault();
+    const { email, senha } = formData;
 
-    if (formData.email.includes('@')) {
-      alert('Login efetuado com sucesso');
-      window.location.href = '/Home'; 
-    } else {
-      alert('Email ou senha incorretos');
+    if (email.trim() === '' || !email.includes('@')) {
+      alert('Por favor, insira um e-mail válido.');
+      return;
     }
+
+    if (senha.trim() === '' || senha.length < 5) {
+      alert('A senha deve ter no mínimo 5 caracteres.');
+      return;
+    }
+
+    alert('Login efetuado com sucesso');
+    window.location.href = '/Home'; 
   };
 
   const campos = [

@@ -10,9 +10,28 @@ const Cadastro = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  const validateEmail = (email) => {
+    return email.includes('@'); 
+  };
+
   const handleCadastro = (e) => {
     e.preventDefault();
     const { name, email, password } = formData;
+
+    if (name.trim() === '') {
+      alert('Nome não pode ser vazio ou espaços em branco.');
+      return;
+    }
+
+    if (email.trim() === '' || !validateEmail(email)) {
+      alert('Por favor, insira um e-mail válido.');
+      return;
+    }
+
+    if (password.trim().length < 5) {
+      alert('A senha deve ter no mínimo 5 caracteres.');
+      return;
+    }
 
     alert('Cadastro efetuado com sucesso');
     window.location.href = '/Login';
@@ -22,8 +41,7 @@ const Cadastro = () => {
     { tipo: "text", placeholder: "Nome:", name: "name", value: formData.name, onChange: handleChange, icone: "../../../public/icones/User_Icone.png" },
     { tipo: "email", placeholder: "Email:", name: "email", value: formData.email, onChange: handleChange, icone: "../../../public/icones/User_Icone.png" },
     { tipo: "password", placeholder: "Senha:", name: "password", value: formData.password, onChange: handleChange, icone: "../../../public/icones/Password_Icone.png" },
-];
-
+  ];
 
   return (
     <div className="cadastro-page">
