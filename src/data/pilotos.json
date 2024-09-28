@@ -3,7 +3,8 @@
         "posicao": 1,
         "nome": "António Félix Da Costa",
         "foto": "/pilotos/Antonio-Felix-Da-Costa.png",
-        "equipe": "porsche",
+        "equipe": "Porsche",
+        "cor": "var(--cor-porsche)",
         "pontos": 25,
         "melhorTempo":"1:04:045",
         "largada": 10
@@ -12,7 +13,8 @@
         "posicao": 2,
         "nome": "Nick Cassidy",
         "foto": "/pilotos/Nick-Cassidy.png",
-        "equipe": "jaguar",
+        "equipe": "Jaguar",
+        "cor": "var(--cor-jaguar)",
         "pontos": 19,
         "melhorTempo":"1:03:728",
         "largada": 2
@@ -21,7 +23,8 @@
         "posicao": 3,
         "nome": "Oliver Rowland",
         "foto": "/pilotos/Oliver-Rowland.png",
-        "equipe": "nissan",
+        "equipe": "Nissan",
+        "cor": "var(--cor-nissan)",
         "pontos": 15,
         "melhorTempo":"1:04:165",
         "largada": 16
@@ -30,7 +33,8 @@
         "posicao": 4,
         "nome": "Pascal Wehrlein",
         "foto": "/pilotos/Pascal-Wehrlein.png",
-        "equipe": "porsche",
+        "equipe": "Porsche",
+        "cor": "var(--cor-porsche)",
         "pontos": 13,
         "melhorTempo":"1:04:193",
         "largada": 6
@@ -39,7 +43,8 @@
         "posicao": 5,
         "nome": "Jake Dennis",
         "foto": "/pilotos/Jake-Dennis.png",
-        "equipe": "andretti",
+        "equipe": "Andretti",
+        "cor": "var(--cor-andretti)",
         "pontos": 12,
         "melhorTempo":"1:04:062",
         "largada": 1
@@ -48,7 +53,8 @@
         "posicao": 6,
         "nome": "Mitch Evans",
         "foto": "/pilotos/Mitch-Evans.png",
-        "equipe": "jaguar",
+        "equipe": "Jaguar",
+        "cor": "var(--cor-jaguar)",
         "pontos": 8,
         "melhorTempo":"1:04:317",
         "largada": 4
@@ -57,7 +63,8 @@
         "posicao": 7,
         "nome": "Jehan Daruvala",
         "foto": "/pilotos/Jehan-Daruvala.png",
-        "equipe": "maseratti",
+        "equipe": "Maseratti",
+        "cor": "var(--cor-maseratti)",
         "pontos": 6,
         "melhorTempo":"1:04:374",
         "largada": 13
@@ -66,7 +73,8 @@
         "posicao": 8,
         "nome": "Sam Bird",
         "foto": "/pilotos/Sam-Bird.png",
-        "equipe": "mclaren",
+        "equipe": "Mclaren",
+        "cor": "var(--cor-mclaren)",
         "pontos": 4,
         "melhorTempo":"1:04:204",
         "largada": 18
@@ -75,7 +83,8 @@
         "posicao": 9,
         "nome": "Robin Frijns",
         "foto": "/pilotos/Robin-Frijns.png",
-        "equipe": "envision",
+        "equipe": "Envision",
+        "cor": "var(--cor-envision)",
         "pontos": 2,
         "melhorTempo":"1:04:206",
         "largada": 11
@@ -84,7 +93,8 @@
         "posicao": 10,
         "nome": "Jean Éric Vergne",
         "foto": "/pilotos/Jean-Eric-Vergne.png",
-        "equipe": "ds-penske",
+        "equipe": "DS Penske",
+        "cor": "var(--cor-ds-penske)",
         "pontos": 1,
         "melhorTempo":"1:04:217",
         "largada": 9
@@ -93,7 +103,8 @@
         "posicao": 11,
         "nome": "Lucas di Grassi",
         "foto": "/pilotos/Lucas-Di-Grassi.png",
-        "equipe": "abt",
+        "equipe": "ABT",
+        "cor": "var(--cor-abt)",
         "pontos": 0,
         "melhorTempo":"1:04:387",
         "largada": 12
@@ -102,7 +113,8 @@
         "posicao": 12,
         "nome": "Jake Hughes",
         "foto": "/pilotos/Jake-Hughes.png",
-        "equipe": "mclaren",
+        "equipe": "Mclaren",
+        "cor": "var(--cor-mclaren)",
         "pontos": 0,
         "melhorTempo":"1:04:212",
         "largada": 14
@@ -111,7 +123,8 @@
         "posicao": 13,
         "nome": "Sérgio Sette Câmara",
         "foto": "/pilotos/Sergio-Sette-Camara.png",
-        "equipe": "ert",
+        "equipe": "ERT",
+        "cor": "var(--cor-ert)",
         "pontos": 0,
         "melhorTempo":"1:04:358",
         "largada": 15
@@ -120,7 +133,8 @@
         "posicao": 14,
         "nome": "Sébastien Buemi",
         "foto": "/pilotos/Sebastien-Buemi.png",
-        "equipe": "envision",
+        "equipe": "Envision",
+        "cor": "var(--cor-envision)",
         "pontos": 0,
         "melhorTempo":"1:04:079",
         "largada": 19
@@ -129,7 +143,8 @@
         "posicao": 15,
         "nome": "Nico Müller",
         "foto": "/pilotos/Nico-Muller.png",
-        "equipe": "abt",
+        "equipe": "ABT",
+        "cor": "var(--cor-abt)",
         "pontos": 0,
         "melhorTempo":"1:04:040",
         "largada": 21
@@ -138,7 +153,8 @@
         "posicao": 16,
         "nome": "Edoardo Mortara",
         "foto": "/pilotos/Edoardo-Motara.png",
-        "equipe": "mahindra",
+        "equipe": "Mahindra",
+        "cor": "var(--cor-mahindra)",
         "pontos": 0,
         "melhorTempo":"1:04:593",
         "largada": 7
@@ -147,7 +163,8 @@
         "posicao": 17,
         "nome": "Dan Ticktum",
         "foto": "/pilotos/Dan-Ticktum.png",
-        "equipe": "ert",
+        "equipe": "ERT",
+        "cor": "var(--cor-ert)",
         "pontos": 0,
         "melhorTempo":"1:03:934",
         "largada": 22
@@ -156,7 +173,8 @@
         "posicao": 18,
         "nome": "Nyck de Vries",
         "foto": "/pilotos/Nyck-De-Vries.png",
-        "equipe": "mahindra",
+        "equipe": "Mahindra",
+        "cor": "var(--cor-mahindra)",
         "pontos": 0,
         "melhorTempo":"1:04:466",
         "largada": 20
@@ -165,7 +183,8 @@
         "posicao": 19,
         "nome": "Norman Nato",
         "foto": "/pilotos/Norman-Nato.png",
-        "equipe": "andretti",
+        "equipe": "Andretti",
+        "cor": "var(--cor-andretti)",
         "pontos": 0,
         "melhorTempo":"1:03:553",
         "largada": 3
@@ -174,7 +193,8 @@
         "posicao": 20,
         "nome": "Stoffel Vandoorne",
         "foto": "/pilotos/Stoffel-Vandoorne.png",
-        "equipe": "ds-penske",
+        "equipe": "DS Penske",
+        "cor": "var(--cor-ds-penske)",
         "pontos": 0,
         "melhorTempo":"1:04:827",
         "largada": 8
@@ -183,7 +203,8 @@
         "posicao": 21,
         "nome": "Sacha Fenestraz",
         "foto": "/pilotos/Sacha-Fenestraz.png",
-        "equipe": "nissan",
+        "equipe": "Nissan",
+        "cor": "var(--cor-ds-penske)",
         "pontos": 0,
         "melhorTempo":"1:04:769",
         "largada": 17
@@ -192,7 +213,8 @@
         "posicao": 22,
         "nome": "Maximilian Günther",
         "foto": "/pilotos/Maximilian-Gunther.png",
-        "equipe": "maseratti",
+        "equipe": "Maseratti",
+        "cor": "var(--cor-maseratti)",
         "pontos": 0,
         "melhorTempo":"1:05:345",
         "largada": 5
