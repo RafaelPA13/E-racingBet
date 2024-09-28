@@ -9,7 +9,7 @@ export default function CardPiloto({ posicao, nome, foto, equipe, cor, pontos, m
                 </div>
 
                 <div className="id-container">
-                    <h1> { posicao } </h1>
+                    <h1> { posicao }º</h1>
                     <h1> { nome } </h1>
                 </div>
 
@@ -23,7 +23,7 @@ export default function CardPiloto({ posicao, nome, foto, equipe, cor, pontos, m
                         <p>Melhor Tempo</p>
                     </div>
                     <div className="info-conteudo">
-                        <p> { largada } </p>
+                        <p> { largada }º </p>
                         <p>Largada</p>
                     </div>
                 </div>

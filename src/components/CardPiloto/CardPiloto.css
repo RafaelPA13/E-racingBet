@@ -5,6 +5,7 @@
     background-color: var(--color-light);
     margin: 2rem;
     text-align: center;
+    padding: 2rem 0;
 
     img {
         width: 200px;
@@ -16,6 +17,8 @@
     background-color: var(--color-tertiary);
 
     p {
+        font-family: var(--font);
+        font-weight: 700;
         color: var(--color-light);
         font-size: 3rem;
         padding: 1rem;
@@ -33,6 +36,7 @@
     color: var(--color-secondary);
 
     h1 {
+        font-family: var(--font);
         font-size: 3rem;
     }
 }
@@ -46,9 +50,54 @@
 .info-conteudo {
     background: var(--gradient);
     color: var(--color-light);
-    padding: 2rem;
-    font-size: 1.8rem;
+    padding: 1.2rem;
+    font-size: 2rem;
     border-radius: 5px;
+
+    p {
+        font-family: var(--font);
+        font-weight: 700;
+    }
 }
 
 /*Fim Card Pilotos */
+
+/* Mobile */
+
+@media (max-width: 1200px) {
+    .piloto-container {
+        margin: 0 0 1rem 0;
+    
+        img {
+            width: 150px;
+        }
+    }
+    
+    .equipe-container {
+    
+        p {
+            font-size: 2rem;
+            padding: .5rem;
+        }
+    }
+    
+    .id-container {
+        gap: 1rem;
+    
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    
+    .info-container {
+        gap: .5rem;
+    }
+    
+    .info-conteudo {
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+}
+
+
+    /* Fim Mobile  */
