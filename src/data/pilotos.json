@@ -204,7 +204,7 @@
         "nome": "Sacha Fenestraz",
         "foto": "/pilotos/Sacha-Fenestraz.png",
         "equipe": "Nissan",
-        "cor": "var(--cor-ds-penske)",
+        "cor": "var(--cor-nissan)",
         "pontos": 0,
         "melhorTempo":"1:04:769",
         "largada": 17

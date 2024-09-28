@@ -21,7 +21,7 @@ export default function Header() {
             setAbrir(!abrir);
           }}
         >
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </button>
         <ul className="menu">
           <li>
