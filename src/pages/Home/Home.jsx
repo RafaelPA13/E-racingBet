@@ -1,6 +1,7 @@
 import Banner from "../../components/Banner/Banner";
 import Button from "../../components/Button/Button";
 import Titulo from "../../components/Titulos/Titulos";
+import CardPiloto from "../../components/CardPiloto/CardPiloto"
 import { Link } from "react-router-dom";
 
 import pilotos from "../../data/pilotos.json";
@@ -21,7 +22,7 @@ export default function Home() {
                 </Link>
               }
             />
-            <a href="#automobilismo" className="icone">
+            <a href="#automobilismo" className="icone-button">
               <i class="fa-solid fa-angles-down"></i>
             </a>
           </div>
@@ -58,10 +59,11 @@ export default function Home() {
       <section className="section-classificacao">
         <Titulo titulo={"Circuito de Berlim"} />
         <ul className="lista-pilotos">
-          {/* Aqui vira os cards dos 3 primeiros pilotos */}
-          {/* {pilotos
+          {pilotos
             .filter((piloto) => piloto.posicao <= 3)
-            .map((piloto) => ())} */}
+            .map((piloto) => (
+              <CardPiloto {... piloto}/>
+            ))}
         </ul>
         <Button
           tag={
