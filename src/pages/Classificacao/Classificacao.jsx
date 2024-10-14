@@ -16,7 +16,7 @@ export default function Classificacao() {
       <Titulos titulo="Circuito: Berlim" />
       
       <div className="circuito-container">
-        <img src="../../../public/circuitos/Circuito-Berlim.webp" alt="Circuito de Berlim" />
+        <img src="/circuitos/Circuito-Berlim.webp" alt="Circuito de Berlim" />
       </div>
 
       <div className="secao-container">

@@ -10,7 +10,7 @@
 }
 
 .cadastro-page {
-    background: url(../../../public/web_images/E-gigante.png) no-repeat, var(--gradient);
+    background: url(/web_images/E-gigante.png) no-repeat, var(--gradient);
     background-size: cover;
     background-position: center;
     display: flex;

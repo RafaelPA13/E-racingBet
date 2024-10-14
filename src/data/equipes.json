@@ -5,7 +5,7 @@
     "pilotos": [
       {
         "nome": "Lucas Di Grassi",
-        "foto": "/public/pilotos/Lucas-Di-Grassi.png"
+        "foto": "/pilotos/Lucas-Di-Grassi.png"
       },
       { "nome": "Nico Müller", "foto": "/pilotos/Nico-Muller.png" }
     ],
@@ -73,12 +73,12 @@
   },
   {
     "equpe": "Mahindra Racing",
-    "fotoEquipe": "/public/equipes/LogoMahindra.png",
+    "fotoEquipe": "/equipes/LogoMahindra.png",
     "pilotos": [
       { "nome": "Edoardo Motara", "foto": "/pilotos/Edoardo-Motara.png" },
       { "nome": "Nyck De Vries", "foto": "/pilotos/Nyck-De-Vries.png" }
     ],
-    "carro": "/public/carros/Carro-Mahindra.png",
+    "carro": "/carros/Carro-Mahindra.png",
     "estatisticas": [{ "colocacao": "11°", "vitorias": "0", "podios": "0" }],
     "classe": "mahindra"
   },

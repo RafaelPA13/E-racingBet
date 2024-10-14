@@ -29,15 +29,15 @@ const Login = () => {
   };
 
   const campos = [
-    { tipo: "email", placeholder: "Email:", name: "email", value: formData.email, onChange: handleChange, icone: "../../../public/icones/User_Icone.png" },
-    { tipo: "password", placeholder: "Senha:", name: "senha", value: formData.senha, onChange: handleChange, icone: "../../../public/icones/Password_Icone.png" },
+    { tipo: "email", placeholder: "Email:", name: "email", value: formData.email, onChange: handleChange, icone: "/icones/User_Icone.png" },
+    { tipo: "password", placeholder: "Senha:", name: "senha", value: formData.senha, onChange: handleChange, icone: "/icones/Password_Icone.png" },
   ];
 
   return (
     <div className="login-page">
       <div className="login-container">
         <div className="login-box">
-          <img src="../../../public/web_images/formula_e_logo.png" alt="Formula E Logo" className="logo" />
+          <img src="/web_images/formula_e_logo.png" alt="Formula E Logo" className="logo" />
           <div className="login-line"></div>
           <form onSubmit={logar}>
             <CadastroForm campos={campos} />
