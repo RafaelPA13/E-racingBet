@@ -1,13 +1,13 @@
 /* Define as variáveis de cores e fonte */
 :root {
   --font: 'Montserrat', sans-serif;
-  --color-light: #F2F2F2;
-  --color-dark: #00001b;
-  --color-primary: #0500ff;
-  --color-secondary: #00005a;
-  --color-tertiary: #FF000F;
-  --title-color: #00ffff;
-  --gradient: linear-gradient(90deg, #00005a 0%, #0000c0 100%);
+  --color-light: #E1E6EB;
+  --color-dark: #0F172A;
+  --color-primary: #22C55E;
+  --color-secondary: #27375E;
+  --color-tertiary: #ABB8C9;
+  --title-color: #FFFFFF;
+  --gradient: linear-gradient(90deg, #0F172A 0%, #22C55E 100%);
 
   /* Cores de equipes */
   --cor-porsche: #d5001c;

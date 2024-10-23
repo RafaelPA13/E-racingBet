@@ -1,7 +1,3 @@
-:root {
-    --primary-color: #0000C0;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -10,13 +6,18 @@
 }
 
 .cadastro-page {
-    background: url(/web_images/E-gigante.png) no-repeat, var(--gradient);
+    background: url(/web_images/logo.png) no-repeat, var(--gradient);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+#formCadastro {
+    display: flex;
+    flex-direction: column;
 }
 
 .cadastro-container {
@@ -29,7 +30,6 @@
     background-color: #ffffff;
     padding: 40px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
 }
 
 .logo {
@@ -41,22 +41,5 @@
     width: 100%;
     height: .2rem;
     margin-bottom: .5rem;
-    background-color: var(--primary-color);
-}
-
-.cadastro-btn {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--primary-color);
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.cadastro-btn:hover {
-    background-color: #1e1ec4;
-}
+    background-color: var(--color-primary);
+} 

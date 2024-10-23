@@ -14,7 +14,7 @@ export default function Home() {
       <Banner
         conteudo={
           <div>
-            <h1>Bem vindo a Fórmula E</h1>
+            <h1>Bem vindo ao E-racingBet</h1>
             <Button
               tag={
                 <Link to={"/login"} className="button button-blue">

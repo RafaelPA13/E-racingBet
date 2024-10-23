@@ -1,6 +1,7 @@
 import React from 'react';
 import "../Login/Login.css";
 import CadastroForm from '../../components/FormCadastro/FormCadastro'; 
+import Button from '../../components/Button/Button';
 
 const Login = () => {
   const [formData, setFormData] = React.useState({ email: '', senha: '' });
@@ -37,11 +38,15 @@ const Login = () => {
     <div className="login-page">
       <div className="login-container">
         <div className="login-box">
-          <img src="/web_images/formula_e_logo.png" alt="Formula E Logo" className="logo" />
-          <div className="login-line"></div>
-          <form onSubmit={logar}>
+          <form id='formLogin' onSubmit={logar}>
             <CadastroForm campos={campos} />
-            <button type="submit" className="login-btn">Entrar</button>
+            <Button
+              tag={
+                <button type="submit" className="button button-blue">
+                  Entrar
+                </button>
+              }
+            />
           </form>
         </div>
       </div>

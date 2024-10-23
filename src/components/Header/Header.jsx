@@ -8,12 +8,12 @@ export default function Header() {
 
   return (
     <header className="header">
-      <Link to={"/"}>
+      <Link to={"/"} className="link-home">
         <img
-          src="/web_images/formula_e_logo.png"
+          src="/web_images/logo.png"
           alt="logo"
-          className="header-logo"
         />
+        <h1>E-RacingBet</h1>
       </Link>
       <nav className={abrir ? "aberto" : ""}>
         <button

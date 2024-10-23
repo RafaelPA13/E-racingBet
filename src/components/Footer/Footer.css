@@ -6,6 +6,11 @@ footer {
     color: var(--color-light);
 }
 
+.logo-footer h1 {
+    color: var(--color-primary);
+    font-size: 4rem;
+}
+
 .conteudo,
 .copyright {
     display: flex;

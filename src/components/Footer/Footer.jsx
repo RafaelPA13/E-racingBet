@@ -6,8 +6,8 @@ export default function Footer() {
     <footer>
       <div className="conteudo">
         <div className="logo-footer">
-          <img src="/web_images/formula_e_logo.png" alt="logo" />
-          <p>Faça parte da comunidade da Fórmula E</p>
+            <h1>E-racingBet</h1>
+          <p>Faça parte da comunidade dos fãs de automobilismo</p>
         </div>
         <ul className="lista-footer">
           <li>
@@ -36,7 +36,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className="copyright">
-        <p>@2024 Fórmula E</p>
+        <p>@2024 E-racingBet</p>
         <p>Github.com/RafaelPA13</p>
       </div>
     </footer>

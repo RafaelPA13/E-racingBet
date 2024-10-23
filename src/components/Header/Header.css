@@ -8,9 +8,21 @@
     justify-content: space-between;
 }
 
-.header-logo {
-    width: 30rem;
-    height: 5rem;
+.link-home {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-home img {
+    height: 7rem;
+    width: 9rem;
+}
+
+.link-home h1 {
+    color: var(--color-primary);
+    font-size: 5vmin;
 }
 
 .menu {
